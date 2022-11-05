@@ -1,0 +1,865 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img_logo {
+    width: 80%;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.nav-link.active {
+    color: #002352 !important;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #222323;
+}
+
+.nav-link.active:active {
+    color: #ffffff !important;
+}
+
+.nav-link:active {
+    background-color: #002352;
+    color: #ffffff;
+}
+
+.btn_signin {
+    background-color: #f27e3f;
+    border: 3px solid #ffffff;
+    width: 100px;
+    text-align: center;
+}
+
+.btn_signin:hover {
+    background-color: #002352;
+}
+
+.nav-link.signin {
+    color: #ffffff;
+    margin-right: 0 !important;
+}
+
+.nav-link.signin:hover {
+    color: #ffffff;
+}
+
+.certified, .certified2 {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+nav.top_nav {
+    background-color: #002352;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.div_top_nav {
+    width: 80%;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+section.pub_adv, section.monetize {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+div.pub_adv, div.monetizer {
+    width: 100%;
+    color: #ffffff;
+}
+
+div.publisher, div.monetize {
+    height: 450px;
+    background: radial-gradient(at 90% 0%, #f27e3f 10px, #f27e3f 15% 65%, #f39d6e 65% 80%, #f3bb9c 80% 100%);
+    opacity: 0.8;
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+div.advertizer, div.advertize {
+    height: 450px;
+    background: radial-gradient(at 10% -90%, #002352 10px, #002352 15% 68%, #0248a2 68% 80%, #086cee 80% 100%);
+    text-align: left;
+    padding-top: 80px;  
+    padding-left: 50px;
+}
+
+h1.publisher {
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+p.publisher2, p.advertizer {
+    color: #002352;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p.advertizer {
+    color: #086cee;
+}
+
+.span_publisher {
+    font-weight: 700;
+}
+
+.btn_publisher, .btn_advertizer, .btn_monetize, .btn_advertizez {
+    background-color: #ffffff;
+    color: #002352;
+    font-weight: 700;
+}
+
+div.alumn {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom left, #0248a2 50%, #f3bb9c 50%);
+    border: none;
+}
+
+.ring, .ring2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 7px solid #002352;
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+section.online_adv_plat {
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+}
+
+div.online_adv_plat, div.online_adv_plat2 {
+    height: 500px;
+    padding: 0 90px 0 120px;
+}
+
+h2.online_adv_plat {
+    color: #333333;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+p.online_adv_plat {
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+
+section.monetize {
+    height: 600px;
+}
+
+div.monetize {
+    height: 550px;
+    /* background: radial-gradient(at 90% 95%, #f27e3f 10px, #f27e3f 15% 65%, #f39d6e 65% 78%, #f3bb9c 78% 100%); */
+    background: radial-gradient(at -90% 95%, #f39d6e 10px, #f39d6e 0% 40%, #f27e3f 40% 78%,#f3bb9c 78% 100%);
+    position: absolute;
+    text-align: right;
+    padding: 40px 90px 0 280px;
+}
+
+div.advertize {
+    height: 550px;
+    background: radial-gradient(at 90% 95%, #0248a2 10px, #0248a2 0% 10%, #002352 5% 78%,#086cee 78% 100%);
+    margin-left: 50%; 
+    text-align: left;
+    padding: 40px 200px 0 90px;
+}
+
+h3.monetize {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p.advertizez {
+    color: #f27e3f !important;
+}
+
+p.monetize, p.advertizez {
+    font-size: 18px;
+    color: #002352;
+    font-weight: 500;
+    font-style: italic;
+}
+
+ul.monetize, ul.monetizer {
+    list-style-type: circle;
+    color: #002352;
+    direction: rtl;
+    padding-right: 25px;
+}
+
+ul.monetizer {
+    color: #f27e3f;
+    direction: ltr;
+}
+
+li {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+li span {
+    font-size: 17px;  
+}
+
+span.monetize {
+    color: #ffffff;
+}
+
+.btn_monetize, .btn_advertizez {
+    margin-top: 20px;
+}
+
+.ring2 {
+    width: 100px;
+    height: 100px;
+    border: 20px solid #002352;
+    background-color: transparent;
+    position: absolute;
+    left: -10%;
+    top: 40%;
+}
+
+section.advert {
+    margin-bottom: 100px;
+}
+
+p.advert {
+    color: #002352;
+}
+
+h1.grow {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hands {
+    color: #002352;
+}
+
+div.block {
+    width: 70px;
+    height: 5px;
+    background-color: #002352;
+}
+
+p.research, p.enterprise {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222323;
+}
+
+div.row_card {
+    width: 100%;
+}
+
+div.card {
+    width: 90%;
+}
+
+div.col_card {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+div.card-body {
+    padding: 10px 40px;
+}
+
+h5.card-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+}
+
+.btn-outline {
+    color: #002352;
+}
+
+.btn-outline:hover {
+    color: #002352;
+}
+
+.transition::before{
+    content: "";
+    display: block;
+    background-color: #002352;
+    height: 10px;
+    width: 0%;
+    transition: 300ms;
+}
+.transition:hover::before{
+    width: 100%;
+    transition: 300ms;
+}
+
+div.online {
+    width: 100%;
+    height: 500px;
+    background-color: #002352;
+}
+
+div.online_support {
+    height: 400px;
+}
+
+div.online1 {
+    height: 430px;
+    background-color: #d7d7d7;
+    margin-top: -30px;
+}
+
+div.online2 {
+    height: 430px;
+    background-color: #d7d7d7;
+    margin-top: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.winning {
+    width: 100%;
+    height: 120px;
+    background-color: #002352;
+    text-align: center;
+}
+
+h3.winning {
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+h5.winning {
+    font-weight: 600;
+    font-size: 20px;
+    color: #f27e3f;
+    padding: 0 70px;
+}
+
+div.online_support2 {
+    height: 340px;
+    background-color: #d7d7d7;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+img.support_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.ring3 {
+    width: 280px;
+    height: 280px;
+    border-radius: 200px;
+    background: linear-gradient(#d7d7d7, #d7d7d7) padding-box,
+              linear-gradient(to right, #d7d7d7 0% 50%, #f27e3f 50% 100%) border-box;
+    border: 50px solid transparent;
+    position: absolute;
+    left: 80.1%;
+    top: 24%;
+}
+
+div.alumn2 {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom left, #002352 50%, #d7d7d7 50%);
+    border: none;
+    position: absolute;
+    top: 80%;
+    left: 93px;
+}
+
+div.team {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+h4.team {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+p.team {
+    font-size: 15px;
+}
+
+section.faq {
+    background-color: #ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+div.faq {
+    padding-bottom: 50px;
+}
+
+div.approach {
+    direction: rtl;
+}
+
+.approach {
+    color: #002352;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #ffffff;
+    color: #002352;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ffffff;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #002352;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+section.footer {
+    background-color: #002352;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+div.footer {
+    width: 80%;
+}
+
+.footer_div1 {
+    padding-right: 50px;
+    margin: 50px 0;
+}
+
+.footer_logo {
+    width: 40%;
+    height: 50px;
+}
+
+.footer_div2 {
+    padding-top: 40px;
+}
+
+a.subscribe {
+    background-color: #f27e3f;
+    font-weight: 700;
+    /* text-shadow: 0 0 3px #ffffff; */
+}
+
+a.subscribe:hover {
+    background-color: #f27e3f;
+}
+
+p.learn, a.policy {
+    font-size: 12px;
+}
+
+a.policy {
+    color: #ffffff;
+}
+
+a.policy:hover {
+ color: #67a2b0;
+}
+
+p.privacy {
+    margin-left: 70px;
+}
+
+hr.hr2 {
+    width: 90%;
+}
+
+hr.hr2 {
+    width: 80%;
+}
+
+div.copyright {
+    width: 80%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+div.pub_adv2 {
+    display: none;
+}
+
+div.monetizer1 {
+    display: none;
+}
+
+div.ring3 {
+    display: none;
+}
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .div_top_nav {
+        width: 100%;
+    }
+
+    div.online_adv_plat {
+        width: 100%;
+    }
+
+    div.online_adv_plat2 {
+        display: none;
+    }
+
+    div.online1, div.online2 {
+        display: none;
+    }
+
+    div.monetize, div.advertize {
+        padding: 30px;
+    }
+    
+    div.card {
+        width: 100%;
+    }
+
+    div.footer {
+        width: 100%;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .footer_div1, .footer_div2 {
+        width: 100%;
+    }
+
+    .footer_logo {
+        width: 30%;
+    }
+
+    p.privacy {
+        margin-left: 10px;
+    }
+
+    hr.hr1 {
+        width: 90%;
+    }
+
+    hr.hr2 {
+        width: 75%;
+    } 
+
+    div.pub_adv2 {
+        display: none;
+    }
+
+    div.monetizer1 {
+        display: none;
+    }
+
+    h3.winning {
+        font-size: 24px;
+    }
+    
+    h5.winning {
+        font-size: 17px;
+    }
+    
+    h4.team {
+        font-size: 20px;
+    }
+    
+    div.ring3 {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 767.98px) {
+
+    * {
+        max-width: 100% !important;
+    }
+
+    a.logo {
+        margin-left: 0px;
+    }
+
+    .next_nav {
+        padding: 0;
+    }
+
+    .img_logo {
+        width: 50%;
+        height: 40px;
+    }
+
+    .certified {
+        display: none;
+    }
+
+    section.pub_adv {
+        padding-bottom: 0;
+    }
+
+    div.pub_adv {
+        display: none;
+    }
+
+    div.pub_adv2 {
+        display: block;
+    }
+    
+    div.publisher1, div.monetize1 {
+        height: 400px;
+        background: radial-gradient(at 90% 0%, #f27e3f 10px, #f27e3f 15% 65%, #f39d6e 65% 80%, #f3bb9c 80% 100%);
+        text-align: right;
+        padding-top: 80px;
+        padding-right: 50px;
+        color: #ffffff;
+    }
+
+    h1.publisher {
+        font-size: 28px;
+    }
+    
+
+    div.online1, div.online2 {
+        display: none;
+    }
+
+    p.publisher2, p.advertizer {
+        font-size: 18px;
+    }
+
+    div.advertizer1, div.advertize1 {
+        height: 400px;
+        background: radial-gradient(at 10% -90%, #002352 10px, #002352 15% 68%, #0248a2 68% 80%, #086cee 80% 100%);
+        text-align: left;
+        padding-top: 80px;  
+        padding-left: 50px;
+        color: #ffffff;
+    }
+
+    div.monetize1, div.advertize1 {
+        height: 650px;
+    }
+
+    div.alumn {
+        display: none;
+    }
+
+    .ring {
+        top: 55%;
+        left: 10%;
+    }
+
+    section.online_adv_plat {
+        margin-bottom: 120px;
+    }
+
+    div.online_adv_plat {
+        width: 100%;
+        padding: 0 20px 0 45px;
+        margin-top: -40px;
+    }
+
+    div.online_adv_plat2 {
+        display: none !important;
+    }
+
+    h2.online_adv_plat {
+        font-size: 18px;
+    }
+
+    p.online_adv_plat {
+        font-size: 14px;
+    }
+
+    div.monetize {
+        display: none;
+    }
+
+    div.monetizer {
+        display: none;
+    }
+
+    div.monetizer1 {
+        display: block;
+        width: 100%;
+        color: #ffffff;
+    }
+
+    h3.winning {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    h5.winning {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    div.team {
+        padding-left: 5px;
+        margin-top: 10px;
+    }
+
+    h4.team {
+        font-size: 15px;
+    }
+
+    img.support_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    p.team {
+        font-size: 14px;
+    }
+
+    section.advert {
+        margin-top: 100px;
+    }
+
+    section.faq {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.approach {
+        width: 100% !important;
+        margin-right: 0;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    p.blog, p.support {
+        padding: 0 10px 0 10px;
+    }
+
+    div.row_card {
+        width: 100%;
+    }
+
+    div.col_card {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    div.card {
+        width: 100%;
+    }
+    
+    div.card-body {
+        padding: 10px 20px;
+    }
+
+    div.footer {
+        width: 100%;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .footer_logo {
+        width: 40%;
+        height: 40px;
+    }
+
+    .footer_div1, .footer_div2 {
+        width: 100%;
+    }
+
+    .footer_div1 {
+        margin-bottom: -20px;
+    }
+
+    div.provehub {
+        display: none;
+    }
+    
+} 

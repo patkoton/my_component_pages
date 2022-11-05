@@ -1,0 +1,236 @@
+* {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #18c1f0;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.logo_div {
+    width: 35%;
+    height: 100vh;
+    background-image: url(./assets/images/back_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 50px;
+    overflow-y: auto;
+}
+
+.logo_img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.advert {
+    color: #f8ffff;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.copyright {
+    color:#f8ffff;
+    font-weight: lighter;
+    position: fixed;
+    bottom: 0px;
+}
+
+.sign_up {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.create {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.required {
+    color: red;
+}
+
+.sub_btn {
+    width: 100%;
+    background-color: #18c1f0;
+    color: #f8ffff;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sub_btn:hover {
+    border: 1px solid #18c1f0;
+}
+
+.c_now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stay {
+    color: #f8ffff;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.gog_btn {
+    width: 70%;
+    border: 1px solid #cccccc;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.gog_btn:hover {
+    border: 1px solid #cccccc;
+}
+
+.gog_img {
+    width: 20px;
+    margin-right: 20px;
+    margin-left: -30px;
+    text-align: left;
+}
+
+.line_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    border-width: 2px;
+    border-style: solid none none none;
+    border-color: #cccccc;
+    width: 30%;
+    margin: 0px 10px;
+}
+
+.p_line {
+    color: #cccccc ;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.forgot {
+    display: flex;
+   justify-content: space-between;
+}
+
+.b_login {
+    text-align: center;
+}
+
+#error-message {
+    display: none;
+}
+
+.logo_sm_div {
+    display: none;
+}
+
+.copyright2 {
+    display: none;
+}
+
+
+@media (max-width: 1200px) { 
+    .logo_div {
+        width: 40%;
+        height: 100vh;
+    }
+
+    .inner_div {
+        display: none;
+    }
+
+    .sign_up {
+        width: 60%;
+        padding: 0 50px;
+        margin-top: 40px;
+    }
+
+    .account {
+        margin-top: 20px;
+    }
+
+    .advert {
+        font-size: 23px;
+    }
+
+}
+
+@media (max-width: 760px) { 
+    .logo_div, .inner_div, .advert {
+        display: none;
+    }
+
+    .sign_up {
+        width: 100%;
+    }
+
+    .logo_div {
+        display: block;
+        width: 100%;
+        background-image: url(./assets/images/back_img.png);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    .logo_img {
+        margin-top: 15px;
+        width: 40%;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyright2 {
+        display: block;
+        text-align: center !important;
+        color: #cccccc;
+        position: fixed;
+        bottom: 0px;
+    }
+
+}
+
+@media (max-width: 450px) { 
+    .logo_div {
+        height: 65px !important;
+    }
+
+    .gog_btn {
+        width: 100%;
+    }
+
+    .gog_img {
+        margin-left: -10px;
+    }
+}
+
+
