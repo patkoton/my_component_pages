@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container d-flex">
+        <div class="sidebar" id="side_nav">
+            <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+                <h1 class="fs-4"><span class="bg-white text-dark rounded shadow px-2 me-2">PC</span><span class="text-white">Pac Coding</span></h1>
+                <button class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i class="fa-solid fa-bars-staggered"></i></button>
+            </div>
+            <ul class="list-unstyled px-2">
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-house-chimney"></i> Dashboard</a></li>
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-list"></i> Projects</a></li>
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block d-flex justify-content-between">
+                    <span><i class="fa-regular fa-comment"></i> Messages</span>
+                    <span class="bg-dark rounded-pill text-white py-0 px-2">02</span>
+                </a></li>
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-envelope-open"></i> Services</a></li>
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-users-line"></i> Customers</a></li>
+            </ul>
+            <hr class="h-color mx-2">
+
+            <ul class="list-unstyled px-2">
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-solid fa-gear"></i></i> Settings</a></li>
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2 d-block"><i class="fa-regular fa-bell"></i> Notifications</a></li>
+            </ul>
+        </div>
+
+
+        <div class="content">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between d-md-none d-block">
+                        <button class="btn px-1 py-0 open-btn me-2"><i class="fa-solid fa-bars-staggered"></i></button>
+                        <a class="navbar-brand fx-4" href="#"><span class="bg-dark rounded px-2 py-0 text-white">PC</span></a>
+                        
+                    </div>
+                    <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+            <div class="dashboard-content px-3 pt-4">
+                <h2 class="fs-5">Dashboard</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis totam placeat unde nostrum! Laudantium nostrum officiis unde tenetur distinctio consectetur facilis iste facere laboriosam, veritatis, sed porro atque a rerum!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="./main.js"></script> -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c3f0615e4f.js" crossorigin="anonymous"></script>
+    <script src="./assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+        // remove and add class
+       $(".sidebar ul li").on('click', function(){
+            $(".sidebar ul li.active").removeClass('active');
+            $(this).addClass('active');  
+        }) 
+
+
+        // open-btn
+        $('.open-btn').on('click', function(){
+           $('.sidebar').addClass('active'); 
+        })
+
+
+        // remove-btn
+        $('.close-btn').on('click', function(){
+           $('.sidebar').removeClass('active'); 
+        })
+    </script>
+</body>
+</html>
