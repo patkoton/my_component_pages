@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+body {
+    background-color: #eee;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rounded-pill {
+    background-color: #eee;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -7px;
+    left: 25px;
+    padding: 4px 6px;
+    border-radius: 50%;
+    background: #4d06a5;
+    color: white;
+    font-size: 12px;
+}
+
+#side_nav {
+    background-color: #ffffff;
+    min-width: 300px;
+    max-width: 300px;
+    transition: all 0.3s;
+}
+
+.sidebar li .submenu{ 
+    list-style: circle; 
+    color: #000;
+    margin: 0; 
+    padding: 0; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    background: none;
+}
+
+.sidebar li .submenu li {
+    margin-top: 20px;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidebar li.active {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover {
+    color: #000;
+}
+
+.sidebar li a {
+    color: #000;
+}
+
+.profile_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.col-6 {
+    background-color: #fff;
+    height: 120px;
+    border-radius: 30px;
+    position: relative;
+}
+
+p.amount {
+    position: absolute;
+    top: 20px;
+}
+
+.par_cart {
+    position: absolute;
+    top: 60px;
+}
+
+.cart {
+    color: #1bb646;
+}
+
+.cart_no {
+    color: #78e57d;
+    font-size: 14px;
+}
+
+.cart_text {
+    color: #a4a9b6;
+    font-size: 14px;
+}
+
+#chartContainer {
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+    #side_nav {
+        margin-left: -300px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+
+    #side_nav.active {
+        margin-left: 0;
+    }
+
+    .grp_icons {
+        margin-top: 20px;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .chartContainer {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
